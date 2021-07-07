@@ -1,0 +1,55 @@
+@media only screen and (max-width: 980px){
+    .nav-items a{
+        color: #000;
+    }
+    .visible{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+    .links{
+        flex-direction: column;
+		position: absolute;
+		top: 10vh;
+		background: #99f563;
+		width: 95vw;
+		overflow-x: hidden;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+      .banner{
+          flex-direction: column;
+      }
+      .banner-img{
+          border-radius: 0%;
+          width: 100vw;
+          height: 350px;
+      }
+      .banner-img img{
+          width: 100%;
+      }
+      .services{
+          flex-direction: column;
+      }
+      .services div{
+          width: 80%;
+          margin: 10px ;
+      }
+      #about{
+          overflow-x: hidden;
+      }
+      .form{
+          flex-direction: column-reverse;
+      }
+      .form img{
+          width: 100%;
+      }
+      .form form{
+          width: 100%;
+      }
+      .d-sec{
+          flex-direction: column;
+      }
+}
